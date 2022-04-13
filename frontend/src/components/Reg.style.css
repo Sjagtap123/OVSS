@@ -1,0 +1,219 @@
+.registration-page{
+
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.form-box {
+    box-shadow: 0px 0px 15px -5px black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    background: linear-gradient(135deg,purple,red);
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-wrapper {
+    
+   
+    background-color:aliceblue;
+  
+    min-width: 350px;
+    min-height: 250px;
+    margin-top: 10px;
+    box-sizing:border-box;
+    border-radius: 20px;
+    padding:20px;
+   
+}
+
+.title{
+
+    
+    padding-top: -10px;
+    color:magenta;
+    text-align:center;
+    margin:0px 0px 0px 0px;
+}
+
+
+
+
+
+.input {
+
+    height:25px;
+    font-size:20px;
+ 
+    width: 300px;
+    border-top-style: 2px solid black;
+    border-left-style: 2px solid black;
+    border-right-style: 2px solid black;
+    border-bottom-style: 2px solid black;
+    border-radius: 7px;
+    
+}
+
+button {
+
+    width :100px;
+    height :30px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color:white;
+    font-size: 15px;
+    border:none;
+
+}
+
+.label {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 5px;
+    border:none;
+}
+
+.email,
+.password,
+.fname,
+.mname,
+.lname,
+.contact,
+.address,
+.city,
+.answer,
+ .qid,
+ .question,
+ .areaid,
+ .ownerID,
+ .serviceid,
+ .joindate,.oname{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.sub {
+
+    font-size: 20px;
+}
+
+.image{
+    
+    width:100%;
+    height:300px;
+}
+
+.main{
+    background: linear-gradient(135deg,white,grey);
+    width:100%;
+    height: 55%;
+    max-height:50%;
+   
+}
+
+.footer{
+    background-color:ghostwhite;
+    width:50%;
+    height:50%;
+}
+
+.footerimage{
+    
+    width:30%;
+    max-height:10%;
+    float: left;
+   
+}
+
+.text{
+    width:30%;
+    max-height:20%;
+    float: left;
+}
+
+.aboutus{
+    width:40%;
+    max-height:20%;
+    float: right;
+}
+
+
+
+
+.href{
+    color: purple;
+}
+
+.Home{
+    background-color: black;
+    width:100%;
+    height: 40px;
+}
+
+.owner-details {
+    
+   
+    background-color:aliceblue;
+  
+    min-width: 850px;
+    min-height: 350px;
+    margin-top: 10px;
+    box-sizing:border-box;
+   
+   
+}
+
+.findgarage{
+
+    background: linear-gradient(135deg,white,aqua);
+        width:100%;
+        min-height:100vh;
+       
+}
+
+.servicedetails{
+
+    background: linear-gradient(135deg,white,aqua);
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedbacks{
+
+    background: linear-gradient(135deg,white,aqua);
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.stocks{
+
+    background: linear-gradient(135deg,white,aqua);
+    width:100%;
+    min-height:100vh;
+  
+}
+
+
+.error{
+    color:red;
+}
