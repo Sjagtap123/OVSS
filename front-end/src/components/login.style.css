@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-fluid {
+    background: linear-gradient(135deg,purple,red);
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-wrapper {
+    
+   
+    background-color:aliceblue;
+
+    min-width: 350px;
+    min-height: 250px;
+    padding:20px;
+    box-sizing:border-box;
+    border-radius: 20px;
+}
+
+.title{
+    padding-top: -10px;
+    color:magenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:40px 0px 40px 0px;
+}
+
+
+
+
+
+.input {
+    height:30px;
+    font-size:20px;
+    outline:none;
+    width: 300px;
+    border-top-style: 2px solid black;
+    border-left-style: 2px solid black;
+    border-right-style: 2px solid black;
+    border-bottom-style: 2px solid black;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+button {
+
+    width :100px;
+    height :30px;
+    border-radius: 20px;
+    background-color: magenta;
+    color:white;
+    font-size: 15px;
+    border:none;
+
+}
+
+.label {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 5px;
+    border:none;
+}
+
+.email,
+.password {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.sub {
+
+    font-size: 20px;
+}
